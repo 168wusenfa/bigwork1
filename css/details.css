@@ -1,0 +1,348 @@
+	*{
+		padding:0;
+		margin:0;
+	}
+	ul,li,ol{
+		list-style: none;
+	}
+	body{
+		background-color: #f8f7f6;
+	}
+
+      /*   头部*/
+     #top1{
+		height:130px;
+		width:100%;
+		margin:0 auto;
+		background-color: #fff;
+
+	}
+	#top{
+		height:130px;
+		width:1180PX;
+		margin:0 auto;
+		background-color: #ffffff;
+
+	}
+	#topLeft{
+		height:36px;
+		width:150PX;
+		float:left;
+		color:#f8f7f6;
+		margin:0 auto;
+	}
+	p{
+		padding-top:8px;
+		color:#9a9791;
+	}
+	#topRight{
+		height:36px;
+		width:727px;
+		float:right;
+	}
+	a{
+		text-decoration: none;
+	}
+	/*搜索部分*/
+	#search{
+		height:94px;
+		width:1180PX;
+		float:left;
+		margin:0 auto;
+	}
+	#searcho{
+		height: 40px;
+		width:1180px;
+		/*margin-left:249px;*/
+		float:left;
+	}
+	form{
+		height: 40px;
+		width:583px;
+		margin-left:249px;
+		float:left;
+		background-color: #fe6c00;
+	}
+	input{
+		height: 34px;
+		width:494px;
+		float:left;
+		border:3px solid #fe6c00;
+	}
+	form input:last-child{
+		height:40px;
+		width:77px;
+		float:left;
+		margin-left: 0px;
+		border:0px solid #fe6c00;
+		background-color: #fe6c00;
+	}
+	.sea{
+		width: 583px;
+		height:30px;
+		float:left;
+		margin-left:249px;
+	}
+	.sea li{ 
+		float:left;
+		padding: 0 7px; 
+		line-height: 39px;
+		background:url(../images/shuxian.jpg) no-repeat right 3px ;
+		font-size: 13px;
+		font-family: "Microsoft YaHei"
+	}
+
+	.sea li:last-child{
+		background: none;
+		padding:0px 7px;
+		line-height: 39px;
+	}
+
+	/*导航分类部分*/
+	#Navigation1{ 
+		height:40px;
+		width:100%;
+		margin:0 auto;
+		background-color:#000;
+	}
+	#Navigation{ 
+		height:40px;
+		width:1180PX;
+		margin:0 auto;
+	}
+	.Navi{
+		width: 1180px;
+		height:40px;
+		background-color:#000;
+		float:left;
+	}
+	.Navi li{ 
+		float:left;
+		width:96px;
+		margin-right: 30px;
+		text-align: center;
+		line-height: 33px;
+		font-size: 16px;
+		color:#fff;
+		font-family: "Microsoft YaHei"
+	}
+
+.Navi li a:hover{
+	display: block;
+	height: 40px;
+	background-color:#fe0d4a;
+}
+.Navi li:first-child a{
+	background-color:#fe0d4a;
+	display: block;
+	height: 40px;
+	width:96px;
+}
+
+	/*横线*/
+	.line{
+		height:1px;
+		margin:0 auto;
+		background-color:#fe6c00;
+	}
+
+	/*中间部分*/
+	.main1{
+		height:660px;
+		width:1180px;
+		margin:0 auto;
+		background-color:#f8f7f6;
+	}
+	.main1 p{
+		height: 30px;
+		width:1180px;
+		color:#000;
+		font-size: 13px;
+		float:left;
+	}
+	#main{
+		height:630px;
+		width:994PX;
+		float:left;
+		background-color:#fff;
+	}
+	#mainll{
+		height: 494px;
+		width:443px;
+		float:left;
+	}
+	#logo1{
+		margin-top:20px;
+		margin-left:20px;
+		height: 408px;
+		width:408px;
+		float:left;
+		border:1px solid #d0cdc7;
+	}
+
+	/*放大镜*/
+	#slider{
+			width:150px;
+			height:150px;
+			position:relative;
+			left:260;
+			top:260;
+			background:#fff;
+			opacity:0;
+			cursor: move;
+			display:none; 
+			filter:alpha(opacity=4);}
+
+	#logo11{
+			position:absolute;
+			/*right:0;*/
+			margin-left: 430px;
+			margin-top: 20px;
+			display:none; 
+			width:408px;
+			height:408px;
+			overflow:hidden;
+			border:1px solid #d0cdc7;
+		}
+
+	#logo1Bimg{
+			position:absolute;
+			left:0;
+			top:0;
+		}
+
+	.buy{		
+		position:absolute;
+		width:100%;
+		height:100%;
+		left:0;
+		top:0;
+		background-color: #dedcd8;
+		opacity:0.9;
+		filter:alpha(opacity=50);
+		display: none;
+	}
+
+
+
+
+
+/*两张小图*/
+	.twologo{
+		height:62px;
+		width:410px;
+		float:left;
+		margin-top:24px;
+	}
+	.twologo>span {
+	/*display: block;*/
+	width: 10px;
+	height: 10px;
+	text-align: center;
+	cursor: pointer;
+	color: #d5d2cd;
+	left: 380px;
+	bottom:20px;
+	position: relative;
+	opacity: 1;
+}
+#left{
+	left:3px;
+}
+#right {
+	right: 30px;
+}
+	.clear{
+		margin-top: 20px;
+		margin-left:15px;
+		height: 481px;
+		width:533px;
+		float:left;
+	}
+
+	.leftmain1{
+		margin-left:6px;
+		height:620px;
+		width:180px;
+		float:left;
+		background-color:#fff;
+	}
+	.jiajian{
+		height: 32px;
+		width:480px;
+		margin-top: 50px;
+
+	}
+
+	/*五个图标*/
+	.five{
+		height:108px;
+		width:1180px;
+		margin:0 auto;
+	}
+
+
+
+
+	/*更多*/
+	.more{
+		height:320px;
+		width:100%;
+		background-color: #fff;
+	}
+	#more{
+		padding-top: 5px;
+		height:180px;
+		width:1181px;
+		margin:0 auto;	
+	}
+	.leftmore{
+		height:180px;
+		width:150px;
+		float:left;
+	}
+	#more li{	
+		height:119px;
+		width:64px;
+		margin-top:32px;
+		margin-left:70px;
+		float:left;
+	}
+
+
+	/*关于*/
+	#link{
+		height:108px;
+		width:1180px;
+		margin:0 auto;
+
+	}
+	#linkCerter{
+		height: 25px;
+		width:686px;
+		padding-top:20px;
+		margin:0 auto;
+	}
+	#linkCerter a{
+		padding-top:1px;
+		background:url(../images/shuxian.jpg) no-repeat 5px center ;
+	}
+	#linkCerter a:first-child{
+		background: none;
+	}
+	#linkMore{
+		height:70px;
+		width:1088px;
+		margin:0 auto;
+	}
+	#linkMore li{
+		text-align: center;
+
+	}
+
+	#last{
+		height:57px;
+		width: 1180px;
+		margin:0 auto;
+		text-align: center;
+	}

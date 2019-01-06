@@ -1,0 +1,143 @@
+	*{
+		padding:0;
+		margin:0;
+	}
+	ul,li,ol{
+		list-style: none;
+	}
+	body{
+		background-color: #f8f7f6;
+	}
+
+      /*   头部*/
+     #top1{
+		height:130px;
+		width:100%;
+		margin:0 auto;
+		background-color: #fff;
+
+	}
+	#top{
+		height:130px;
+		width:1180PX;
+		margin:0 auto;
+	/*	position: absolute;
+		overflow: hidden;*/
+		background-color: #ffffff;
+
+	}
+	#topLeft{
+		height:36px;
+		width:150PX;
+		float:left;
+		color:#f8f7f6;
+		margin:0 auto;
+	}
+	p{
+		padding-top:8px;
+		color:#9a9791;
+	}
+	#topRight{
+		height:36px;
+		width:727px;
+		float:right;/*
+		background-color:red;*/
+	}
+	a{
+		text-decoration: none;
+	}
+	/*搜索部分*/
+	#search{
+		height:94px;
+		width:1180PX;
+		float:left;
+		margin:0 auto;
+	}
+	#searcho{
+		height: 40px;
+		width:1180px;
+		/*margin-left:249px;*/
+		float:left;
+	}
+	form{
+		height: 40px;
+		width:583px;
+		margin-left:249px;
+		float:left;
+		background-color: #fe6c00;
+	}
+	input{
+		height: 34px;
+		width:494px;/*
+		margin-left:249px;*/
+		float:left;
+		border:3px solid #fe6c00;
+	}
+	form input:last-child{
+		height:40px;
+		width:77px;
+		float:left;
+		margin-left: 0px;
+		border:0px solid #fe6c00;
+		background-color: #fe6c00;
+	}
+	/*#search li{
+		height:40px;width:84px;margin-left:850px;float:left;"
+	}*/
+	.sea{
+		width: 583px;
+		height:30px;
+		float:left;
+		margin-left:249px;
+	}
+	.sea li{ 
+		float:left;
+		padding: 0 7px; 
+		line-height: 39px;
+		background:url(../images/shuxian.jpg) no-repeat right 3px ;
+		font-size: 13px;
+		font-family: "Microsoft YaHei"
+	}
+
+	.sea li:last-child{
+		background: none;
+		padding:0px 7px;
+		line-height: 39px;
+	}
+
+	/*导航分类部分*/
+	#Navigation{ 
+		height:40px;
+		width:1180PX;
+		margin:0 auto;
+	}
+	.Navi{
+		width: 1180px;
+		height:40px;
+		background-color: #fff;
+		float:left;
+	}
+	/*.Navi li{ 
+		float:left;
+		padding: 0 32px; 
+		line-height: 33px;
+		font-size: 16px;
+		color:#666560;
+
+		font-family: "Microsoft YaHei"
+	}*/
+
+	/*横线*/
+	/*.line{
+		height:1px;
+		margin:0 auto;
+		background-color:#fe6c00;
+	}*/
+	.main{
+		height:130px;
+		width:1180PX;
+		margin:0 auto;
+		position: absolute;
+		overflow: hidden;
+		background-color: red;
+	}

@@ -1,0 +1,413 @@
+	*{
+		padding:0;
+		margin:0;
+	}
+	ul,li,ol{
+		list-style: none;
+	}
+	body{
+		background-color: #f8f7f6;
+	}
+
+	/*右边的定位*/
+	#position1{
+	width: 145px;
+	position: fixed;
+	right: -100px;
+	top: 115px;
+	}
+	#position2{
+	width: 145px;
+	background-color: #ff9260;
+	position: fixed;
+	right: -100px;
+	top: 180px;
+	}
+	#position3{
+	width: 145px;
+	height: 160px;
+	margin-top: 2px;
+	background-color: #ff9260;
+	position: fixed;
+	right: -100px;
+	top: 321px;
+	}
+	#position4{
+	width: 145px;
+	height: 140px;
+	margin-top: 2px;
+	background-color: #ff4d04;
+	position: fixed;
+	right: -100px;
+	top: 484px;
+	}
+
+     /*   头部*/
+     #top1{
+		height:130px;
+		width:100%;
+		margin:0 auto;
+		background-color: #fff;
+		z-index: 9999;
+
+	}
+	#top{
+		height:130px;
+		width:1180PX;
+		margin:0 auto;
+		background-color: #ffffff;
+
+	}
+	#topLeft{
+		height:36px;
+		width:150PX;
+		float:left;
+		color:#f8f7f6;
+		margin:0 auto;
+	}
+	p{
+		padding-top:8px;
+		color:#9a9791;
+	}
+	#topRight{
+		height:36px;
+		width:727px;
+		float:right;/*
+		background-color:red;*/
+	}
+	a{
+		text-decoration: none;
+	}
+	/*搜索部分*/
+	#search{
+		height:94px;
+		width:1180PX;
+		float:left;
+		margin:0 auto;
+	}
+	#searcho{
+		height: 40px;
+		width:1180px;
+		/*margin-left:249px;*/
+		float:left;
+	}
+	form{
+		height: 40px;
+		width:583px;
+		margin-left:249px;
+		float:left;
+		background-color: #fe6c00;
+	}
+	input{
+		height: 34px;
+		width:494px;/*
+		margin-left:249px;*/
+		float:left;
+		border:3px solid #fe6c00;
+	}
+	form input:last-child{
+		height:40px;
+		width:77px;
+		float:left;
+		margin-left: 0px;
+		border:0px solid #fe6c00;
+		background-color: #fe6c00;
+	}
+	/*#search li{
+		height:40px;width:84px;margin-left:850px;float:left;"
+	}*/
+	.sea{
+		width: 583px;
+		height:30px;
+		float:left;
+		margin-left:249px;
+	}
+	.sea li{ 
+		float:left;
+		padding: 0 7px; 
+		line-height: 39px;
+		background:url(../images/shuxian.jpg) no-repeat right 3px ;
+		font-size: 13px;
+		font-family: "Microsoft YaHei"
+	}
+
+	.sea li:last-child{
+		background: none;
+		padding:0px 7px;
+		line-height: 39px;
+	}
+
+	/*导航分类部分*/
+	#Navigation1{ 
+		height:40px;
+		width:100%;
+		margin:0 auto;
+		background-color: #fff;
+	}
+	#Navigation{ 
+		height:40px;
+		width:1180PX;
+		margin:0 auto;
+		background-color: #fff;
+	}
+	.Navi{
+		width: 1180px;
+		height:40px;
+		background-color: #fff;
+		float:left;
+	}
+	.Navi li{ 
+		float:left;
+		margin-right: 52px;
+		line-height: 33px;
+		font-size: 16px;
+		text-align: center;
+		font-family: "Microsoft YaHei"
+	}
+	.Navi li a:hover{
+	display: block;
+	height: 40px;
+	width:170px;
+	background-color:#ff4d04;
+}
+.Navi li:first-child a{
+	background-color:#ff4d04;
+	display: block;
+	height: 40px;
+	width:170px;
+}
+
+	/*横线*/
+	.line{
+		height:1px;
+		margin:0 auto;
+		background-color:#fe6c00;
+	}
+
+	/*主要内容*/
+	
+	#main{
+		height:550px;
+		width:1180px;
+		margin:0 auto;
+		background-color:#f8f7f6;
+	}
+	.leftNav{
+		height:423px;
+		width:168px;
+		float:left;
+		background-color: #fff;
+	}
+	.smallLefeNav{
+		height:423px;
+		width:25px;
+		float:left;
+		background-color: #4c4c4a;
+	}
+	.leftNav li{
+		height: 27px;
+		width: 168px;
+		padding-top: 5px;
+
+	}
+	.leftw{
+		height:126px;
+		width:168px;
+		float:left;
+		border-top:1px solid #fe6c00;
+		background-color:#fff;
+	}
+	.leftw li{
+		padding-top:12px;
+	}
+
+	/*轮播图*/
+	.logo {
+	width: 800px;
+	height: 360px;
+	border: 1px solid #fff;
+	margin: 0 auto;
+	float:left;
+	position: relative;
+	overflow: hidden;
+	}
+
+.slider {
+	width: 8400px;
+	position: absolute;
+	left: -1200px;
+}
+
+.slide {
+	width: 1200px;
+	float: left;
+}
+
+.logo>span {
+	display: block;
+	width: 10px;
+	height: 10px;
+	text-align: center;
+	cursor: pointer;
+	color: #fff;
+	top: 175px;
+	line-height: 50px;
+	background: rgb(255, 0, 0);
+	font-size: 30px;
+	position: absolute;
+	background-color: red;
+	opacity: 0;
+}
+
+#left {
+	background-image: url('img/btn.gif');
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 150px;
+	left: 3px;
+	opacity: 0;
+}
+
+#right {
+	background-image: url('img/btn.gif');
+	background-position: 0 -60px;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 150px;
+	right: 3px;
+	opacity: 0;
+}
+
+.nav {
+	position: absolute;
+	margin-left:320px;
+	bottom: 20px;
+}
+
+.nav>li {
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: #efeeec;
+	cursor: pointer;
+	margin: 0 10px;
+	text-align:center;
+	border-radius: 50%;
+}
+
+.nav .active {
+	background: #fe6c00;
+}
+
+
+	/*四张静态图*/
+	.sizhangtu{
+		height:187px;
+		width:800px;
+		float:left;
+		border-right:1px solid #fe6c00;
+		border-top:2px solid #fe6c00;
+		background-color: red;
+	}
+	.tupian{
+		height: 187px;
+		width:200px;
+		float:left;
+		background-color: #fff;
+	}
+
+	/*公告*/
+	.Notice{
+		height:363px;
+		width:210px;
+		float:left;
+		overflow: hidden;
+		background-color: #fff;
+	}
+	.NoticeCenter{
+		height:322px;
+		width:205px;
+		float:left;
+		overflow: hidden;
+		border-top:1px solid #ebeae7;
+		border-bottom:1px solid #ebeae7;
+		animation:move 4s cubic-bezier(0.76, 0.35, 1, 7) infinite;
+		background-color: #fff;
+	}
+.NoticeCenter li{
+	font-size: 13px;
+	margin-left:16px;
+	margin-top:12px;
+}
+.NoticeCenter li:first-child{
+	margin-top:10px;
+}
+.NoticeCenter a{
+	color: #ff4d04;
+}
+.buy{
+	height:188px;
+	width:211px;
+	float:left;
+	background-color:#fff;
+}
+
+	/*更多*/
+	#more{
+		padding-top: 5px;
+		height:180px;
+		width:1181px;
+		margin:0 auto;
+		background-color: #f8f7f6;	
+	}
+	.leftmore{
+		height:180px;
+		width:150px;
+		float:left;
+	}
+	#more li{	
+		height:119px;
+		width:64px;
+		margin-top:32px;
+		margin-left:70px;
+		float:left;
+	}
+
+
+	/*关于*/
+	#link{
+		height:108px;
+		width:1180px;
+		margin:0 auto;
+	}
+	#linkCerter{
+		height: 25px;
+		width:686px;
+		padding-top:20px;
+		margin:0 auto;
+	}
+	#linkCerter a{
+		padding-top:1px;
+		background:url(../images/shuxian.jpg) no-repeat 5px center ;
+	}
+	#linkCerter a:first-child{
+		background: none;
+	}
+	#linkMore{
+		height:70px;
+		width:1088px;
+		margin:0 auto;
+	}
+	#linkMore li{
+		text-align: center;
+
+	}
+
+	#last{
+		height:57px;
+		width: 1180px;
+		margin:0 auto;
+		text-align: center;
+	}
