@@ -1,0 +1,18 @@
+参考文献：
+https://blog.csdn.net/lykangjia/article/details/72770461
+https://blog.csdn.net/qq_36396763/article/details/94396195    二者大同小异
+
+1、配置一个.bat文件
+2、在项目的目录中建立一个lib文件用来存放 ReportNG，TestNG，JRE的依赖jar包（这是很重要的一步，不然后期在Jenkins构建的时候会报 “找不到或无法加载主类”。）  两个参考文献中都有提到，第二个较为详细。
+
+3、在这个.bat文件中输入信息
+
+cd E:\Coding\CodeSpace\qualinkTestProd          （这是这个项目的所在目录）
+Java -cp bin;lib/* org.testng.TestNG testng.xml    
+pause
+
+代码解释：
+第一行：cd 表示跳转，cd 后面是我们的工程路径，可以按照实际情况填写。即“跳转到我们的工程路径”。
+第二行：cp 用于设置classpath，.\bin表示的是当前目录下的bin文件夹，里面放着运行我们的Java工程所需的所有类；lib表示当前目录下的lib文件夹，里面会存放我们运行工程所需的所有依赖Jar包。
+第三行：pause 结束
+
